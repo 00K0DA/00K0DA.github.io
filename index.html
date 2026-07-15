@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>oukoda — Android アプリ開発者 / Android App Developer</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5b6472;
+    --card-bg: #f6f7f9;
+    --border: #e2e5ea;
+    --accent: #2e7d5b;
+    --accent-fg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --fg: #e8eaed;
+      --muted: #9aa3b0;
+      --card-bg: #1e2127;
+      --border: #2c313a;
+      --accent: #4bbd8a;
+      --accent-fg: #0d1512;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+      "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
+    line-height: 1.7;
+    color: var(--fg);
+    background: var(--bg);
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 56px; }
+  header { margin-bottom: 8px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  .lead { color: var(--muted); margin: 0 0 4px; }
+  h2 {
+    font-size: 1.2rem; margin: 40px 0 16px; padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .cards { display: grid; gap: 16px; }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+  .card h3 { margin: 0 0 4px; font-size: 1.15rem; }
+  .card .desc { margin: 0 0 14px; color: var(--muted); }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn {
+    display: inline-block; text-decoration: none;
+    font-size: 0.9rem; padding: 8px 14px; border-radius: 8px;
+    border: 1px solid var(--border); color: var(--fg); background: transparent;
+  }
+  .btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+  a { color: var(--accent); }
+  .contact { margin-top: 8px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.85rem; }
+  .en { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>oukoda</h1>
+    <p class="lead">個人で Android アプリを開発しています。</p>
+    <p class="lead en">Individual Android app developer.</p>
+  </header>
+
+  <section>
+    <h2>公開アプリ / Apps</h2>
+    <div class="cards">
+
+      <div class="card">
+        <h3>マシンウォーク / MachineWalk</h3>
+        <p class="desc">
+          ウォーキングマシン用の歩行記録アプリ。<br>
+          <span class="en">Walking log app for treadmill walking.</span>
+        </p>
+        <div class="links">
+          <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.oukoda.machinewalk">Google Play</a>
+          <a class="btn" href="privacy-policy.html">プライバシーポリシー / Privacy Policy</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>FastLog（16時間断食タイマー）/ FastLog</h3>
+        <p class="desc">
+          16:8 断食（16時間断食）のタイマーアプリ。<br>
+          <span class="en">16:8 intermittent fasting timer.</span>
+        </p>
+        <div class="links">
+          <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.oukoda.fastlog">Google Play</a>
+          <a class="btn" href="fastlog-privacy-policy.html">プライバシーポリシー / Privacy Policy</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>お問い合わせ / Contact</h2>
+    <p class="contact">
+      ご連絡は以下のメールアドレスまでお願いします。<br>
+      <span class="en">For inquiries, please contact us at the address below.</span><br>
+      <a href="mailto:trombonepart1110@gmail.com">trombonepart1110@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; oukoda
+  </footer>
+</div>
+</body>
+</html>
