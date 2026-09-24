@@ -2,7 +2,6 @@
 # Authorized digital sellers — ironSource (Unity LevelPlay) mediation
 # Reseller list source: https://docs.unity.com/en-us/grow/programmatic/ironsource-exchange/app-ads-txt
 ironsrc.com, 625833, DIRECT
-google.com, pub-1637221741014276, DIRECT, f08c47fec0942fa0
 vungle.com, 6a579d659ef99bc872e58021, DIRECT, c107d686becd2d77
 blueseasx.com, 203625, RESELLER
 rubiconproject.com, 26132, RESELLER, 0bfd66d529a55807
@@ -223,7 +222,7 @@ myfeature.tv, N1fNlXquFCVDX3gt6MJN, RESELLER
 verve.com, 5897, RESELLER, 0c8f5958fc2d6270
 
 # --- Liftoff (Vungle) ---
-# DIRECT line for vungle.com is listed above (line 6)
+# DIRECT line for vungle.com is listed above (line 5)
 # Last updated: 2026-08-01
 33across.com, 001Pg0000197KcKIAU, RESELLER, bbea06d9c4d2853c
 contextweb.com, 562852, RESELLER, 89ff185a4c4e857c
